@@ -38,7 +38,7 @@ const projects: Project[] = [
     problem:
       "Many farmers may find it difficult to access mandi price information because of language, literacy, or comfort with digital tools.",
     built:
-      "I connected speech recognition, translation, LLM-based reasoning, text-to-speech, and mandi-related information flow into one voice-based experience.",
+      "Connected speech recognition, translation, LLM-based reasoning, text-to-speech, and mandi-related information flow into one voice-based experience.",
     tech: ["Python", "Sarvam AI", "ASR", "LLMs", "TTS", "NLP"],
     impact:
       "Made mandi price information feel easier to access by allowing users to ask questions in Hindi through voice.",
@@ -59,7 +59,7 @@ const projects: Project[] = [
     problem:
       "College alumni networks often become scattered across spreadsheets, social platforms, and informal chats.",
     built:
-      "I built authentication, dynamic profile setup, mentorship requests, alumni interactions, protected routes, and admin workflows using role-based access control.",
+      "Built authentication, dynamic profile setup, mentorship requests, alumni interactions, protected routes, and admin workflows using role-based access control.",
     tech: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "JWT"],
     impact:
       "Created a structured platform for student-alumni engagement, mentorship, and college-level alumni management.",
