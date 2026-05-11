@@ -5,7 +5,7 @@ It showcases my projects, skills, milestones, and learning journey through a cle
 
 ## Live Demo
 ```txt
-[https://rujula-portfolio.rujularaut.workers.dev/]
+https://rujula-portfolio.rujularaut.workers.dev
 ```
 
 ## Tech Stack
