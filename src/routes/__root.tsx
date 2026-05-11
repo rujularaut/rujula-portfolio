@@ -69,24 +69,25 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
-    meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Rujula Raut — Digital Field Notebook" },
-      { name: "description", content: "Personal portfolio of Rujula Raut — CS student and builder working across full-stack, AI/ML, and design." },
-      { name: "author", content: "Rujula Raut" },
-      { property: "og:title", content: "Rujula Raut — Digital Field Notebook" },
-      { property: "og:description", content: "A field notebook of projects, experiments, and learnings." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
-    links: [
-      { rel: "stylesheet", href: appCss },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=Caveat:wght@400;600;700&display=swap" },
-    ],
-  }),
+  meta: [
+    { charSet: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { title: "Rujula Raut | Portfolio" },
+    {
+      name: "description",
+      content:
+        "Personal portfolio of Rujula Raut, CS student and builder working across full-stack, AI/ML, and design.",
+    },
+    { name: "author", content: "Rujula Raut" },
+    { property: "og:title", content: "Rujula Raut | Portfolio" },
+    {
+      property: "og:description",
+      content: "A field notebook of projects, experiments, and learnings.",
+    },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary" },
+  ],
+}),
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
